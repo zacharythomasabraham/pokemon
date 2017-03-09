@@ -1,6 +1,6 @@
 // Initialize Phaser, and create a 800x480px game
 var screenWidth = 800;
-var game = new Phaser.Game(screenWidth, 480, Phaser.AUTO, 'gameContainer');
+var game = new Phaser.Game(screenWidth, 480, Phaser.CANVAS, 'gameContainer');
 
 var updatesCounter = 0;
 var caughtPokemons = 0;
