@@ -25,7 +25,7 @@ var mainState = {
      	game.physics.startSystem(Phaser.Physics.ARCADE);
      
      	// Create text container and set it to initial value
-     	text = game.add.text(0, 0, 'Catch a pokemon by clicking on it', { fill: '#ffffff'});
+     	text = game.add.text(0, 0, 'Catch a Pokemon by clicking on it', { fill: '#ffffff'});
     },
      
     update: function() {
