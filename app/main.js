@@ -57,7 +57,7 @@ function createPokemon() {
 
     // Add gravity to the pokemon to make it fall
     game.physics.arcade.enable(pokemon);
-    pokemon.body.gravity.y = 1000;
+    pokemon.body.gravity.y = 300;
 };
 
 
